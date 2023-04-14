@@ -2,8 +2,7 @@
 
 This project was inspired by [Test Framework with Pytest and Page Object Model](https://github.com/aifakhri/web-app-testing-framework-example). However, I wanted to use [pipenv](https://github.com/pypa/pipenv) to manage dependencies.
 
-
-
+## Setup
 1. Install [pyenv](https://github.com/pyenv/pyenv)
 ```
 brew update
@@ -42,7 +41,12 @@ Updated .zshrc:
 export PATH=~/.local/bin:$PATH
 ```
 
-4. Run tests:
+4. Install dependencies:
+```
+pipenv install
+```
+
+5. Run tests:
 ```
 pipenv run pytest
 ```
